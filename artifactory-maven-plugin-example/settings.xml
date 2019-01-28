@@ -6,6 +6,15 @@
                 <username>admin</username>
                 <password>password</password>
             </properties>
+             <id>default</id>
+        <repositories>
+            <repository>
+                <id>smss-group-m2</id>
+                <url>http://localhost:8081/artifactory/libs-release</url>
+                <releases>
+                    <updatePolicy>always</updatePolicy>
+                </releases>
+            </repository>
         </profile>
     </profiles>
 
