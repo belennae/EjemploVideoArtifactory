@@ -21,6 +21,10 @@
       <protocol>http</protocol>
       <host>172.16.1.3</host>
       <port>8080</port>
+       <username>synopsis</username>
+      <password>synopsis</password>
+       
+      
 
     </proxy>
   </proxies>
